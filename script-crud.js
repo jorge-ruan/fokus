@@ -43,10 +43,6 @@ function criaElementoLi (tarefa) {
             tarefa.descrição = mudaTarefa;
             atualizaLocalStorage();
         }
-        else {
-
-            console.log('Deu algum problema');
-        }
     }
     botao.append(imagemBotao);
 
